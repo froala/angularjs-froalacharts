@@ -1,6 +1,6 @@
 // The MIT License (MIT)
 //
-// Copyright (c) 2014 FusionCharts, Inc.
+// Copyright (c) 2014 froalacharts, Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 (function() {
-  var fc = angular.module('ng-fusioncharts', []),
+  var fc = angular.module('ng-froalacharts', []),
     scope = {
       width: '@',
       height: '@',
@@ -192,7 +192,7 @@
     scope[eventName] = '&';
   }
 
-  fc.directive('fusioncharts', [
+  fc.directive('froalacharts', [
     '$http',
     function($http) {
       return {
@@ -624,7 +624,7 @@
               if (chart && chart.dispose) {
                 chart.dispose();
               }
-              chart = new FusionCharts(chartConfigObject);
+              chart = new FroalaCharts(chartConfigObject);
               scope.initialized && scope.initialized({ chart: chart });
               for (currIndex = 0; currIndex < eventsLen; currIndex++) {
                 eventName =

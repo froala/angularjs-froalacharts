@@ -1,5 +1,5 @@
 (function () {
-    window.app = angular.module ('fusioncharts-demo', ['ngRoute', 'ng-fusioncharts', 'ui.bootstrap', 'ui.bootstrap.tpls']);
+    window.app = angular.module ('froalacharts-demo', ['ngRoute', 'ng-froalacharts', 'ui.bootstrap', 'ui.bootstrap.tpls']);
     app.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.otherwise ('/demos/ex1');
     }]);

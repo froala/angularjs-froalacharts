@@ -5,48 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <script src="../node_modules/fusioncharts/fusioncharts.js"></script>
-    <script
-      type="text/javascript"
-      src="../node_modules/fusioncharts/fusioncharts.charts.js"
-    ></script>
-    <script src="../node_modules/fusioncharts/fusioncharts.timeseries.js"></script>
+    <script src="../node_modules/froalacharts/froalacharts.js"></script>
     <script
       type="text/javascript"
       src="../node_modules/angular/angular.js"
     ></script>
     <script
       type="text/javascript"
-      src="../dist/angular-fusioncharts.js"
+      src="../dist/angular-froalacharts.js"
     ></script>
     <script src="./index.js"></script>
   </head>
   <body ng-app="myApp">
     <div ng-controller="MyController">
       <div
-        fusioncharts
+        froalacharts
         datasource-dt="timeSeriesDS"
         width="600"
         height="400"
         type="timeseries"
       ></div>
       <div
-        fusioncharts
+        froalacharts
         datasource-dt="columnDS"
         width="600"
         height="400"
-        type="column2d"
+        type="column"
       ></div>
       <div
-        fusioncharts
+        froalacharts
         datasource="{{ columnDS }}"
         dataFormat="json"
         width="600"
         height="400"
-        type="column2d"
+        type="column"
       ></div>
       <div
-        fusioncharts
+        froalacharts
         datasource="data.json"
         dataFormat="jsonurl"
         width="600"

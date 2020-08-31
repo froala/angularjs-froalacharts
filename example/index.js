@@ -6,7 +6,7 @@ var schemaFetch = fetch(
   'https://s3.eu-central-1.amazonaws.com/fusion.store/ft/schema/line-chart-with-time-axis-schema.json'
 ).then(jsonify);
 
-var app = angular.module('myApp', ['ng-fusioncharts']);
+var app = angular.module('myApp', ['ng-froalacharts']);
 
 app.controller('MyController', function($scope) {
   $scope.timeSeriesDS = {
@@ -61,7 +61,7 @@ app.controller('MyController', function($scope) {
   Promise.all([dataFetch, schemaFetch]).then(res => {
     const data = res[0];
     const schema = res[1];
-    const fusionTable = new FusionCharts.DataStore().createDataTable(
+    const fusionTable = new FroalaCharts.DataStore().createDataTable(
       data,
       schema
     );

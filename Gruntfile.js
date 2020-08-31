@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           banner: '/*! <%= pkg.name %> - v<%= pkg.version %>*/\n\n'
         },
         files: {
-          'dist/angular-fusioncharts.min.js': ['src/angular-fusioncharts.js']
+          'dist/angular-froalacharts.min.js': ['src/angular-froalacharts.js']
         }
       }
     },
@@ -29,12 +29,12 @@ module.exports = function(grunt) {
       core: {
         files: [
           {
-            src: 'dist/angular-fusioncharts.min.js',
-            dest: 'demos/js/angular-fusioncharts.min.js'
+            src: 'dist/angular-froalacharts.min.js',
+            dest: 'demos/js/angular-froalacharts.min.js'
           },
           {
-            src: 'src/angular-fusioncharts.js',
-            dest: 'dist/angular-fusioncharts.js'
+            src: 'src/angular-froalacharts.js',
+            dest: 'dist/angular-froalacharts.js'
           }
         ]
       }

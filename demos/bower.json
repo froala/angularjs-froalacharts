@@ -1,8 +1,8 @@
 {
-  "name": "angularjs-fusioncharts-demos",
+  "name": "angularjs-froalacharts-demos",
   "version": "0.0.1",
-  "homepage": "https://github.com/fusioncharts/angularjs-fusioncharts",
-  "author": "FusionCharts, Inc.  <support@fusioncharts.com>",
+  "homepage": "https://github.com/froalacharts/angularjs-froalacharts",
+  "author": "FroalaCharts, Inc.  <support@froalacharts.com>",
   "license": "MIT",
   "ignore": [
     "**/.*",
