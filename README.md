@@ -84,7 +84,7 @@ In your HTML, find the section where you wish to add the chart and add a <div> w
         froalacharts
         width="600"
         height="400"
-        type="column2d"
+        type="pie"
         datasource="{{dataSource}}">
       </div>
     </div>
@@ -194,7 +194,7 @@ In `index.html`
         froalacharts
         width="600"
         height="400"
-        type="column2d"
+        type="funnel"
         datasource="{{dataSource}}">
       </div>
     </div>
@@ -216,7 +216,7 @@ Usage in template :
 <froalacharts
   width="400"
   height="400"
-  type="column2d"
+  type="doughnut"
   datasource="{{myDataSource}}"
   fcevent-dataplotrollover="rollover(event, args)">
 </froalacharts>
@@ -269,7 +269,7 @@ In template, we add `initialized` event
 <froalacharts
   width="400"
   height="400"
-  type="column2d"
+  type="pie"
   datasource="{{myDataSource}}"
   initialized="onInitialized(chart)">
 </froalacharts>
