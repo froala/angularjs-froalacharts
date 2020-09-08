@@ -57,7 +57,7 @@ $ npm install froalacharts --save
 In your index.html
 
 ```xml
-  <script type="text/javascript" src="node_modules/fusioncharts/fusioncharts.js"></script>
+  <script type="text/javascript" src="node_modules/froalacharts/froalacharts.js"></script>
   <script type="text/javascript" src="node_modules/froalacharts/themes/froalacharts.theme.froala.js"></script>
   <script type="text/javascript" src="node_modules/angular/angular.js"></script>
   <script type="text/javascript" src="node_modules/angularjs-froalacharts/dist/angular-froalacharts.js"></script>
