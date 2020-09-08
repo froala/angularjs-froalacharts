@@ -83,7 +83,7 @@ In your HTML, find the section where you wish to add the chart and add a <div> w
         froalacharts
         width="600"
         height="400"
-        type="column2d"
+        type="pie"
         datasource="{{dataSource}}">
       </div>
     </div>
@@ -104,7 +104,7 @@ app.controller('MyController', function($scope) {
       xAxisName: 'Country',
       yAxisName: 'Reserves (MMbbl)',
       numberSuffix: 'K',
-      theme: 'fusion'
+      theme: 'froala'
     },
     data: [
       { label: 'Venezuela', value: '290' },
@@ -299,7 +299,7 @@ Get the list of froalacharts' [methods](https://www.fusioncharts.com/dev/api/fus
 
 ## Usage and integration of FroalaTime
 
-From `froalacharts@1.0.4` and `angularjs-froalacharts@5.0.0`, You can visualize timeseries data easily with angular.
+From `froalacharts@1.0.4` and `angularjs-froalacharts@1.0.0`, You can visualize timeseries data easily with angular.
 
 Learn more about FroalaTime [here](https://www.fusioncharts.com/fusiontime).
 
@@ -420,7 +420,7 @@ If you want to support your application on IE(11 and below), then you need to ta
 
 ### Firstly
 
-You have to update your `angularjs-froalacharts` and `froalacharts` modules to latest versions. For `angularjs-froalacharts` install `v5.0.1` and above; for `froalacharts` install `1.0.4` and above.
+You have to update your `angularjs-froalacharts` and `froalacharts` modules to latest versions. For `angularjs-froalacharts` install `v1.0.0` and above; for `froalacharts` install `1.0.6` and above.
 
 ### Secondly
 
