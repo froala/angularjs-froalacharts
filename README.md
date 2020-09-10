@@ -7,7 +7,7 @@ A simple and lightweight official AngularJS component for Froalacharts JavaScrip
 - Github Repo: [https://github.com/froala/angularjs-froalacharts](https://github.com/froala/angularjs-froalacharts)
 - Documentation: [https://www.fusioncharts.com/dev/getting-started/angular/angularjs/your-first-chart-using-angularjs](https://www.fusioncharts.com/dev/getting-started/angular/angularjs/your-first-chart-using-angularjs)
 - Support: [https://www.fusioncharts.com/contact-support](https://www.fusioncharts.com/contact-support)
-- FusionCharts
+- FroalaCharts
   - Official Website: [https://www.fusioncharts.com/](https://www.fusioncharts.com/)
   - Official NPM Package: [https://www.npmjs.com/package/fusioncharts](https://www.npmjs.com/package/fusioncharts)
 - Issues: [https://github.com/froala/angularjs-fusioncharts/issues](https://github.com/froala/angularjs-fusioncharts/issues)
