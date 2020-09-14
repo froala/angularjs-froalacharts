@@ -7,10 +7,10 @@
     "type": "git",
     "url": "git://github.com/froala/angularjs-froalacharts.git"
   },
-  "author": "Idera",
+  "author": "FusionCharts, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/froala/angularjs-froalacharts/issues"
+    "url": "https://froala.com/contact/"
   },
   "scripts": {
     "dev": "npx grunt watch-server",
